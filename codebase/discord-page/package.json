@@ -1,0 +1,27 @@
+{
+  "name": "discord-page.js",
+  "version": "1.1.0",
+  "description": "Message (string and embed) paginator for discord.js v13",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist/ && tsc",
+    "auto-build": "rm -rf dist/ && tsc --watch"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "keywords": [
+    "paginator",
+    "pagination",
+    "page",
+    "discord.js",
+    "discordjs",
+    "djs",
+    "discord",
+    "bot",
+    "haxgamig"
+  ],
+  "author": "HaXGamiG <contact@haxgamig.fr>",
+  "license": "MIT"
+}

@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "async-and-quick": "^1.0.1",
+    "chalk": "^4.1.1",
+    "chillout": "^5.0.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.6.0",
+    "enquirer": "^2.3.6",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.4",
+    "ontime": "^0.0.8",
+    "plsargs": "^0.1.6",
+    "recursive-readdir": "^2.2.2",
+    "stuffs": "^0.1.11"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/lodash": "^4.14.178",
+    "@types/node": "^15.12.2",
+    "@types/recursive-readdir": "^2.2.0"
+  },
+  "version": "1.9.9",
+  "name": "armagan-lyrua-800",
+  "main": "index.js",
+  "author": "Kıraç Armağan Önal",
+  "private": true,
+  "scripts": {
+    "interaksiyon": "node ./other/generator.js interaction",
+    "olay": "node ./other/generator.js event",
+    "baslat": "node index.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "^16.6.1"
+  }
+}
